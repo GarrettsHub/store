@@ -11,7 +11,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg top-nav" id="topNav">
                 <h1 class="heading">
-                    <a href="#" class="navbar-brand">Garrett's Recrods</a>
+                    <a href="#" class="navbar-brand">Garrett's Records</a>
                 </h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,8 +43,32 @@
     </header>
     <main class="main" id="main">
         <section class="section" id="bannerSection">
-            <div class="container">
-                <img src="https://via.placeholder.com/650x450" alt="placeholder img" class="img-fluid image banner-img w-100 d-block mx-auto"/>
+            <div id="myPics" class="carousel slide d-none d-lg-block" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/icon.jpeg" height="450" width="250" class="d-block w-50 mx-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/albums.png" height="450" width="250" class="d-block w-50 mx-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/covers.png" height="450" width="250" class="d-block w-50 mx-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/album2.jpg" height="450" width="250" class="d-block w-50 mx-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/album3.jpeg" height="450" width="250" class="d-block w-50 mx-auto" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myPics" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myPics" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <section class="section" id="section1">
@@ -278,10 +302,10 @@
                     <div class="col">
                         <div class="card h-100 d-none d-md-none d-lg-block">
                             <img src="img/views.jpeg" alt="views" class="img-fluid image card-img card-img-top"/>
-                            <div class="card-body">
+                            <div class="card-body mb-5">
                                 <h3 class="card-title">Views</h3>
-                                <p class="card-text display-3">Drake</p>
-                                <p class="card-text">2016</p>
+                                <p class="card-text mt-4 display-3">Drake</p>
+                                <p class="card-text mt-5">2016</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="class-text">$19.99</p>
@@ -311,7 +335,7 @@
                         <button class="btn btn-primary" id="confirmBtn">submit</button>
                     </form>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5 col-lg-4 mt-5">
                     <ul class="address-list list-group">
                         <li class="address-item list-item list-group-item">123 Sesame Street</li>
                         <li class="address-item list-item list-group-item">Jackson, Ms 39222</li>
@@ -319,7 +343,7 @@
                         <li class="address-item list-item list-group-item">moreinfo@garrettsrecords.com</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-5">
                     <nav class="nav bottom-nav justify-content-center" id="bottomNav">
                         <a href="" class="nav-link social-link"></a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
