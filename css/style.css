@@ -1,5 +1,31 @@
 * {box-sizing: border-box;}
 
+.header {
+    background-color: #00B295;
+}
+
+#bannerSection {
+    background-color: #1915161f;
+}
+
+#favorites, #new, #featured {
+    margin-top: 50px;
+}
+
+.down {
+    margin: 0;
+}
+
+.footer {
+    background-color: #00B295;
+    margin: 0;
+}
+
 .my-nav {
     margin-top: 45px;
+    margin-right: 55px;
+}
+
+.my-nav a {
+    padding: 0 30px 0 30px;
 }
